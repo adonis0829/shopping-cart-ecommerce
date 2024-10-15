@@ -15,8 +15,7 @@ export default function App() {
   const [fontLoaded, setFontLoaded] = useState(false)
   const [client, setupClient] = useState(null)
 
-  const [test, setTest] = useState(0);
-  const [test1, setTest1] = useState(0);
+  const [test3, setTest3] = useState(0);
 
   useEffect(() => {
     loadAppData()
