@@ -16,6 +16,7 @@ export default function App() {
   const [client, setupClient] = useState(null)
 
   const [test, setTest] = useState(0);
+  const [test1, setTest1] = useState(0);
 
   useEffect(() => {
     loadAppData()
